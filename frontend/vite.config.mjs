@@ -13,7 +13,11 @@ export default defineConfig({
 	},
 	plugins: [
 		vue(),
-		frappeui(),
+		frappeui({
+    buildConfig: {
+        indexHtmlPath: path.resolve(__dirname, 'index.html'),
+    }
+}),
 		VitePWA({
 			registerType: "autoUpdate",
 			strategies: "injectManifest",
