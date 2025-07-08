@@ -21,7 +21,7 @@
     "dev-roster": "cd roster && yarn dev",
     "build": "yarn build-pwa && yarn build-roster",
     "build-pwa": "echo Skipping PWA...",
-    "build-roster": "cd roster && yarn build"
+    "build-roster": "echo Skipping Roster..."
   },
   "dependencies": {
     "html2canvas": "^1.4.1"
