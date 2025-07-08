@@ -20,7 +20,7 @@
     "dev-pwa": "cd frontend && yarn dev",
     "dev-roster": "cd roster && yarn dev",
     "build": "yarn build-pwa && yarn build-roster",
-    "build-pwa": "cd frontend && yarn build",
+    "build-pwa": "echo Skipping PWA...",
     "build-roster": "cd roster && yarn build"
   },
   "dependencies": {
